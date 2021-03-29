@@ -1,0 +1,195 @@
+@media screen and (max-width:1400px){
+    .izdvojeniTelefoni{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .card{
+            width: 30%;
+            margin-bottom: 25px;
+        }
+    }
+    .pozadinaAutor{
+        width: 350px;
+        height: 350px;
+    }
+    .opisAutor{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 1201px){
+    .izdvojeniTelefoni{
+        padding:20px;
+    }
+    .pozadinaAutor{
+        width: 270px;
+        height: 270px;
+        display: flex;
+        align-items: center;
+    }
+    .opisAutor{
+        width: 650px;
+        line-height: 1;
+    }
+}
+@media screen and (max-width:992px){
+    .prviProdukti{
+        .card{
+            width: 90%;
+        }
+    }
+    .produktiDonji{
+        .card-deck {
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        .card{
+            width: 45%;
+            img{
+                width: 40%;
+            }
+        }
+        .card:nth-child(1){
+            display: none;
+        }
+        }
+    } 
+    /* .pozadinaAutor{
+        width: 250px;
+        height: 250px;
+    }
+    .opisAutor{
+        width: 600px;
+    } */
+
+}
+@media screen and (max-width: 1000px){
+    header{
+        .naslov{
+            h1{
+                font-size: 24px;
+            }
+        }
+    }
+
+}
+@media screen and (max-width:970px){
+    .pozadinaAutor{
+        width: 230px !important;
+        height: 230px !important;
+    }
+    .opisAutor{
+        width: calc(100% - 230px);
+        .textAutor{
+            padding:10px;
+        }
+    }
+}
+@media screen and (max-width: 870px){
+    .cena{
+        span{
+            font-size: 27px;
+            color: #111;
+            font-weight: 400;   
+        }
+        sup{
+            font-size: 18px;
+        }
+    }
+}
+@media screen and (max-width:767px){
+    .fleks-kolona{
+        display: flex;
+        flex-direction: column;
+    }
+    .heder-info{
+        font-size: 18px !important;
+        text-align: center;
+        margin-top: 15px;
+        line-height: 1.6;
+    }
+    .centarMenu{
+        margin:0px auto;
+    }
+    .izdvojeniTelefoni{
+        justify-content: center;
+        .card{
+            width: 48%;
+            /* margin-left: 0px 10px 25px 10px; */
+        }
+    }
+    .banerTelefoni{
+        width: 100%;
+        height: 90px;
+    }
+    .alobre{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .pozadinaAutor{
+        width: 300px !important;
+        height: 300px !important;
+        margin:0px auto 30px auto;
+    }
+    .opisAutor{
+        width: 100%;
+    }
+    .deoZaKupovinu{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 585px){
+    .card{
+        width: 20rem;
+    }
+    .prviProdukti{
+        .card{
+            width: 100%;
+        }
+    }
+    .smanjeno{
+        width: 300px;
+        height: 300px;
+    }
+
+    .produktiDonji{
+        .card-deck {
+        .card{
+            img{
+                width: 55%;
+            }
+        }
+        .card:nth-child(1){
+            display: none;
+        }
+        }
+    } 
+}
+@media screen and (max-width:576px){
+    .sekcijaKontakt .container .leva .row:nth-child(2){
+        margin-bottom: 0px !important;
+    }
+    .sekcijaKontakt .container .leva .row:nth-child(3){
+        margin-top: 0px !important;
+    }
+}
+@media screen and (max-width: 480px){
+    .izdvojeniTelefoni{
+        justify-content: center;
+        .card{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:425px){
+    .centarMenu{
+        width: 100%;
+        li{
+            width: 25%;
+        }
+        li a{
+            font-size: 12px;
+        }
+    }
+    
+}
+
+
+

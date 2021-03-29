@@ -1,0 +1,690 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #182e49;
+  padding: 30px 0px 30px 0px;
+  border-bottom: 1px solid silver;
+}
+
+header .logo {
+  background-size: cover;
+}
+
+header .naslov {
+  height: 73px;
+  margin: 0px 15px 0px 15px;
+}
+
+header .naslov h1 {
+  color: white;
+  font-size: 30px;
+  font-family: Roboto, sans-serif;
+  /* font-family: $aple-font; */
+  text-align: center;
+}
+
+header .heder-info {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 14px;
+}
+
+header .heder-info p {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+header .heder-info i {
+  color: white;
+}
+
+#navigacija {
+  width: 100%;
+  background-color: #182e49;
+}
+
+.tamno-plavo {
+  background-color: #182e49;
+}
+
+.tamno-plavo nav {
+  background-color: #182e49 !important;
+}
+
+.tamno-plavo nav ul li a {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.padding-0 {
+  padding: 0px;
+}
+
+.visinaSlajder {
+  width: 100%;
+  height: auto;
+}
+
+.pozadina1 {
+  background-image: url("../img/slajderPocetni/proba.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.card img {
+  padding: 5px;
+}
+
+.card {
+  width: 18rem;
+}
+
+.margin-dole-20 {
+  margin-bottom: 20px;
+}
+
+.senka {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sirina-15-posto {
+  width: 15%;
+}
+
+.card-text {
+  line-height: 1.2;
+}
+
+.izdvojeniTelefoni .card:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pozadinaAkcijaTelefoni {
+  background-image: url("../img/banerTelefoni.webp");
+  background-position: center center;
+  background-size: cover;
+}
+
+.banerTelefoni {
+  width: 100%;
+}
+
+.sekcijaStaticnaPozadina {
+  background-image: url("../img/statikPozadina.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.sekcijaStaticnaPozadina .card {
+  margin: 10px;
+  background: rgba(82, 91, 124, 0.34);
+  color: white;
+}
+
+.visinaSLike {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.slikaBezPozadine {
+  width: 60%;
+  display: block;
+  margin: 0px auto;
+}
+
+.slajderDonji {
+  display: none;
+}
+
+.card-deck {
+  margin: 0px auto;
+}
+
+.visina-500 {
+  height: 500px;
+  width: 100%;
+}
+
+.rounded-circle {
+  width: 75px;
+  height: 75px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+.rounded-circle i {
+  color: #182e49;
+  font-size: 50px;
+}
+
+.sekcijaAutor {
+  margin: 150px 0px 150px 0px;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.pozadinaAutor {
+  background-image: url("../img/autor.jpg");
+  background-position: 0px 0px;
+  background-size: cover;
+  height: 410px;
+  width: 410px;
+  border-radius: 100%;
+}
+
+.opisAutor {
+  width: 900px;
+}
+
+.textAutor p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.padding-30 {
+  padding: 30px;
+}
+
+.fejs {
+  background-color: #3B5998;
+}
+
+.sekcijaKontakt {
+  margin-bottom: 100px;
+}
+
+.sekcijaKontakt .container {
+  /* background-color: gray; */
+  /* height: 400px; */
+  margin: 0px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sekcijaKontakt .container .leva {
+  /* background-color: #125688; */
+  /* height: 400px; */
+}
+
+.sekcijaKontakt .container .leva .row {
+  /* background-color: red; */
+  margin: 15px 10px 15px 10px;
+  width: 90%;
+}
+
+.sekcijaKontakt .container .leva .row .col-12:nth-child(1) {
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.sekcijaKontakt .container .leva .row .col-6 {
+  background-color: white;
+}
+
+.sekcijaKontakt .container .leva .row .col-6:nth-child(2) {
+  padding-left: 15px;
+  /* background-color: $portfolio-boja; */
+}
+
+.sekcijaKontakt .container .leva .row input[type="text"], .sekcijaKontakt .container .leva .row input[type="email"] {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.sekcijaKontakt .container .leva .row textarea {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 24px;
+}
+
+.sekcijaKontakt .container .leva .row:last-child .col-12 {
+  padding-right: 12px;
+}
+
+.sekcijaKontakt .container .desna {
+  background-color: #103f6d;
+  /* height: 400px; */
+}
+
+.sekcijaKontakt .container .desna .row .margin-top-20 {
+  margin-top: 20px;
+}
+
+.sekcijaKontakt .container .desna .row h3 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.sekcijaKontakt .container .desna .row ul {
+  list-style: none;
+}
+
+.sekcijaKontakt .container .desna .row ul p {
+  color: white;
+}
+
+.sekcijaKontakt .container .desna .row ul p i {
+  color: #6b89a5;
+}
+
+.sekcijaKontakt .container .desna .row ul li {
+  line-height: 1.2;
+}
+
+.sekcijaKontakt .container .desna hr {
+  color: #6b89a5;
+  width: 80%;
+  margin: 0px auto;
+  height: 2px;
+}
+
+.sekcijaKontakt .container .desna .row:last-child div a {
+  font-size: 28px;
+  padding: 12px;
+  color: #6b89a5;
+}
+
+.sekcijaOpisProizvoda {
+  margin: 15px 0px 75px 0px;
+}
+
+.sekcijaOpisProizvoda .lista-spec {
+  list-style: none;
+  margin-top: 25px;
+}
+
+.sekcijaOpisProizvoda .lista-spec li {
+  font-size: 12px;
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 7px;
+}
+
+.sekcijaOpisProizvoda .lista-spec span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.sekcijaOpisProizvoda .dostava-kamion {
+  margin-top: 50px;
+  padding-left: 2rem;
+}
+
+.sekcijaOpisProizvoda .dostava-kamion h3 {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sekcijaOpisProizvoda .dostava-kamion h3 span {
+  font-size: 19px;
+  margin-left: 5px;
+}
+
+.padding-15 {
+  padding: 15px;
+}
+
+.fa-truck {
+  font-size: 19px;
+}
+
+.maloprodajnaCena, .usteda {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  box-sizing: border-box;
+}
+
+.usteda {
+  width: auto;
+}
+
+.usteda span {
+  padding: 1px 3px 1px 3px;
+}
+
+.cena span {
+  font-size: 48px;
+  color: #111;
+  font-weight: 400;
+}
+
+.cena sup {
+  font-size: 30px;
+}
+
+.naStanju {
+  font-size: 14px;
+}
+
+.naStanju .ok {
+  padding-left: 16px;
+  list-style: none;
+}
+
+.naStanju .ok li::before {
+  content: "\2022";
+  color: #85c14a;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.prodajaNaRate {
+  background: #f7f7f7;
+  padding: 10px;
+}
+
+.okvir {
+  border: 1px solid #e4e4e4;
+}
+
+.dugmeKupovina {
+  margin: 70px 0px 15px 0px;
+  width: 100%;
+}
+
+.sekcijaSpecifikacijeProizvoda {
+  margin: 25px 0px 50px 0px;
+}
+
+#accordion {
+  width: 1272px !important;
+}
+
+#accordion table tr td:nth-child(1) {
+  width: 150px;
+  border-right: 1px solid #f2f2f2;
+  font-size: 14px;
+}
+
+#accordion table tr td:nth-child(2) {
+  font-size: 14px;
+}
+
+.tabelaDeklaracija tr td:nth-child(1) {
+  background: #f1f1f1;
+}
+
+.kolapsTekst {
+  font-size: 25px;
+}
+
+.imeProizvodaNaslov2 {
+  color: #3c3b3b;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 24px;
+}
+
+footer {
+  background: #33373f;
+}
+
+.naslovImeFirme {
+  font-size: 48px;
+  font-weight: bold;
+  color: #182e49;
+}
+
+.pozadina-siva {
+  background-color: lightgray;
+}
+
+.sirina-slike {
+  width: inherit;
+}
+
+.pozadinaSlika1 {
+  background-image: url("../img/onamaPrva.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 135px;
+}
+
+.pozadinaSlika2 {
+  background-image: url("../img/onamaDruga.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 135px;
+}
+
+.pozadinaSlika3 {
+  background-image: url("../img/onamaTreca.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 135px;
+}
+
+.pozadinaSlika4 {
+  background-image: url("../img/onamaCetvrta.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 135px;
+}
+
+.margin-dole-0 {
+  margin-bottom: 0px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.mapa {
+  width: 100%;
+  height: 450px;
+}
+
+.sire-dugme {
+  width: 120px;
+}
+
+@media screen and (max-width: 1400px) {
+  .izdvojeniTelefoni {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .izdvojeniTelefoni .card {
+    width: 30%;
+    margin-bottom: 25px;
+  }
+  .pozadinaAutor {
+    width: 350px;
+    height: 350px;
+  }
+  .opisAutor {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  .izdvojeniTelefoni {
+    padding: 20px;
+  }
+  .pozadinaAutor {
+    width: 270px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+  }
+  .opisAutor {
+    width: 650px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .prviProdukti .card {
+    width: 90%;
+  }
+  .produktiDonji .card-deck {
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+  .produktiDonji .card-deck .card {
+    width: 45%;
+  }
+  .produktiDonji .card-deck .card img {
+    width: 40%;
+  }
+  .produktiDonji .card-deck .card:nth-child(1) {
+    display: none;
+  }
+  /* .pozadinaAutor{
+        width: 250px;
+        height: 250px;
+    }
+    .opisAutor{
+        width: 600px;
+    } */
+}
+
+@media screen and (max-width: 1000px) {
+  header .naslov h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .pozadinaAutor {
+    width: 230px !important;
+    height: 230px !important;
+  }
+  .opisAutor {
+    width: calc(100% - 230px);
+  }
+  .opisAutor .textAutor {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .cena span {
+    font-size: 27px;
+    color: #111;
+    font-weight: 400;
+  }
+  .cena sup {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fleks-kolona {
+    display: flex;
+    flex-direction: column;
+  }
+  .heder-info {
+    font-size: 18px !important;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+  .centarMenu {
+    margin: 0px auto;
+  }
+  .izdvojeniTelefoni {
+    justify-content: center;
+  }
+  .izdvojeniTelefoni .card {
+    width: 48%;
+    /* margin-left: 0px 10px 25px 10px; */
+  }
+  .banerTelefoni {
+    width: 100%;
+    height: 90px;
+  }
+  .alobre {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .pozadinaAutor {
+    width: 300px !important;
+    height: 300px !important;
+    margin: 0px auto 30px auto;
+  }
+  .opisAutor {
+    width: 100%;
+  }
+  .deoZaKupovinu {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .card {
+    width: 20rem;
+  }
+  .prviProdukti .card {
+    width: 100%;
+  }
+  .smanjeno {
+    width: 300px;
+    height: 300px;
+  }
+  .produktiDonji .card-deck .card img {
+    width: 55%;
+  }
+  .produktiDonji .card-deck .card:nth-child(1) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sekcijaKontakt .container .leva .row:nth-child(2) {
+    margin-bottom: 0px !important;
+  }
+  .sekcijaKontakt .container .leva .row:nth-child(3) {
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .izdvojeniTelefoni {
+    justify-content: center;
+  }
+  .izdvojeniTelefoni .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .centarMenu {
+    width: 100%;
+  }
+  .centarMenu li {
+    width: 25%;
+  }
+  .centarMenu li a {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
