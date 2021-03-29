@@ -360,7 +360,7 @@ header{
     margin:25px 0px 50px 0px;
 }
 #accordion{
-    width: 1272px !important;
+    /* width: 1272px !important; */
     table tr td:nth-child(1){
         width: 150px;
         border-right: 1px solid #f2f2f2;
@@ -369,6 +369,9 @@ header{
     table tr td:nth-child(2){
         font-size: 14px;
     }
+}
+.sirinaAccordition{
+    
 }
 .tabelaDeklaracija{
     tr td:nth-child(1){

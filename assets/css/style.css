@@ -416,7 +416,7 @@ header .heder-info i {
 }
 
 #accordion {
-  width: 1272px !important;
+  /* width: 1272px !important; */
 }
 
 #accordion table tr td:nth-child(1) {
