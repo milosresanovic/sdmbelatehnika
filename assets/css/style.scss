@@ -370,8 +370,8 @@ header{
         font-size: 14px;
     }
 }
-.sirinaAccordition{
-    
+.margin-top-100{
+    margin-top:100px;
 }
 .tabelaDeklaracija{
     tr td:nth-child(1){
@@ -428,7 +428,7 @@ footer{
     height: 135px;
 }
 .margin-dole-0{
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
 .margin-top-20{
     margin-top: 20px;
@@ -439,5 +439,12 @@ footer{
 }
 .sire-dugme{
     width: 120px;
+}
+.sekcijaMailPocetna{
+    background-color: $tamno-plava;
+    color: white;
+}
+.text-none{
+    text-decoration: none;
 }
 @import "responsive";

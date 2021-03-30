@@ -429,6 +429,10 @@ header .heder-info i {
   font-size: 14px;
 }
 
+.margin-top-100 {
+  margin-top: 100px;
+}
+
 .tabelaDeklaracija tr td:nth-child(1) {
   background: #f1f1f1;
 }
@@ -491,7 +495,7 @@ footer {
 }
 
 .margin-dole-0 {
-  margin-bottom: 0px;
+  margin-bottom: 0px !important;
 }
 
 .margin-top-20 {
@@ -505,6 +509,15 @@ footer {
 
 .sire-dugme {
   width: 120px;
+}
+
+.sekcijaMailPocetna {
+  background-color: #182e49;
+  color: white;
+}
+
+.text-none {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1400px) {
