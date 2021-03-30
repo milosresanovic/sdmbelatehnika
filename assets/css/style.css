@@ -692,9 +692,11 @@ footer {
 @media screen and (max-width: 425px) {
   .centarMenu {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .centarMenu li {
-    width: 25%;
+    /* padding: 3px 10px 3px 10px; */
   }
   .centarMenu li a {
     font-size: 12px;
