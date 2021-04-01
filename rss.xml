@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>SD&M Electornics</title>
+  <link>https://milosresanovic.github.io/sdmbelatehnika/index.html</link>
+  <description>Mesto gde kupujete tehniku</description>
+  <item>
+    <title>Novi artikal</title>
+    <link>https://milosresanovic.github.io/sdmbelatehnika/pages/proizvodCetvrti.html</link>
+    <description>SAMSUNG S20 Ultra u ponudi!</description>
+  </item>
+  <item>
+    <title>Novi artikal</title>
+    <link>https://www.w3schools.com/xml</link>
+    <description>Xiaomi Redmi 9s u ponudi!</description>
+  </item>
+</channel>
+
+</rss>
